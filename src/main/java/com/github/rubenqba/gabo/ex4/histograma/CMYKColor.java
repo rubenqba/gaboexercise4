@@ -64,4 +64,14 @@ public class CMYKColor<T> implements Color {
 
         return Objects.hash(getCyan(), getMagenta(), getYellow(), getBlack());
     }
+
+    @Override
+    public String toString() {
+        return "CMYKColor{" +
+                "cyan=" + cyan +
+                ", magenta=" + magenta +
+                ", yellow=" + yellow +
+                ", black=" + black +
+                '}';
+    }
 }

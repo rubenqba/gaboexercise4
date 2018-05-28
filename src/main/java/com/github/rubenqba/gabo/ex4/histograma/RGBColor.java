@@ -51,4 +51,13 @@ public class RGBColor<T> implements Color {
     public int hashCode() {
         return Objects.hash(getRed(), getBlue(), getGreen());
     }
+
+    @Override
+    public String toString() {
+        return "RGBColor{" +
+                "red=" + red +
+                ", green=" + green +
+                ", blue=" + blue +
+                '}';
+    }
 }
