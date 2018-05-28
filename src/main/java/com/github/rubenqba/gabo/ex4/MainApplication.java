@@ -9,7 +9,7 @@ import java.util.Map;
 public class MainApplication {
 
     public static void main(String ... args) {
-        String filename = "/donde/sea/que/este/el/archivo";
+        String filename = args[0];
 
         ImageProcessor procesor = new ImageProcessorImpl(filename);
 
